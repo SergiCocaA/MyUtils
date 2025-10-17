@@ -1,6 +1,7 @@
+
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
+     * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+     * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
  */
 import com.example.myutils.MyUtils;
 
@@ -31,6 +32,8 @@ public class MyUtilsTest {
         assertEquals(1, MyUtils.factorial(0));
         assertEquals(1, MyUtils.factorial(1));
         assertEquals(120, MyUtils.factorial(5));
+     
+
     }
 
     @Test
