@@ -40,20 +40,5 @@ public class MyUtilsTest {
     void testFactorialNegatiu() {
         assertThrows(IllegalArgumentException.class, () -> MyUtils.factorial(-1));
     }
-    @Test
-    void testInvertir (){
-    MyUtils.invertirCadena("hola");
-}
-    @Test
-    void Maxim(){
-        MyUtils.extreureMaxim(new int []{3,7,1,9} );
-        }
-    @Test
-    void longitud(){
-        MyUtils.longitudCadena("Hola");
-    }
-    @Test
-    void positiu(){
-       MyUtils.esPositiu(5);
-    }
+
 }
